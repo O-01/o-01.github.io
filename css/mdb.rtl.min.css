@@ -2609,7 +2609,6 @@ textarea.form-control-lg {
     font-weight: 400;
     line-height: 1.6;
     color: #4f4f4f;
-    vertical-align: middle;
     background-color: #fff;
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%234f4f4f' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
@@ -2683,7 +2682,7 @@ textarea.form-control-lg {
     -moz-appearance: none;
     appearance: none;
     -webkit-print-color-adjust: exact;
-    color-adjust: exact;
+    print-color-adjust: exact;
     transition: background-color .15s ease-in-out, background-position .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -7554,9 +7553,6 @@ fieldset:disabled .btn {
     flex-direction: row !important
 }
 
-.flex-column,
-.flex-row {}
-
 .flex-column {
     flex-direction: column !important
 }
@@ -7564,9 +7560,6 @@ fieldset:disabled .btn {
 .flex-row-reverse {
     flex-direction: row-reverse !important
 }
-
-.flex-column-reverse,
-.flex-row-reverse {}
 
 .flex-column-reverse {
     flex-direction: column-reverse !important
@@ -8625,9 +8618,6 @@ fieldset:disabled .btn {
         flex-direction: row !important
     }
 
-    .flex-sm-column,
-    .flex-sm-row {}
-
     .flex-sm-column {
         flex-direction: column !important
     }
@@ -9429,9 +9419,6 @@ fieldset:disabled .btn {
     .flex-md-row {
         flex-direction: row !important
     }
-
-    .flex-md-column,
-    .flex-md-row {}
 
     .flex-md-column {
         flex-direction: column !important
@@ -10235,9 +10222,6 @@ fieldset:disabled .btn {
         flex-direction: row !important
     }
 
-    .flex-lg-column,
-    .flex-lg-row {}
-
     .flex-lg-column {
         flex-direction: column !important
     }
@@ -11040,9 +11024,6 @@ fieldset:disabled .btn {
         flex-direction: row !important
     }
 
-    .flex-xl-column,
-    .flex-xl-row {}
-
     .flex-xl-column {
         flex-direction: column !important
     }
@@ -11844,9 +11825,6 @@ fieldset:disabled .btn {
     .flex-xxl-row {
         flex-direction: row !important
     }
-
-    .flex-xxl-column,
-    .flex-xxl-row {}
 
     .flex-xxl-column {
         flex-direction: column !important

@@ -130,11 +130,7 @@ footer a:not(.nav-link) {
   .about-section {
     padding: 0 !important; }
   .skills-section,
-  .work-experience-section,
-  .education-section,
   .portfolio-section,
-  .contact-section {
-    padding: 0 !important; }
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
