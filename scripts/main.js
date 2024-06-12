@@ -40,4 +40,4 @@ document.getElementById('avatar').addEventListener('touchcancel', invert);
 document.getElementById('avatar').addEventListener('touchend', invert);
 
 document.getElementById('egg').addEventListener('click', invert);
-document.getElementById('egg').addEventListener('touchstart', invert);
+document.getElementById('egg').addEventListener('touchmove', invert);
